@@ -1,0 +1,15 @@
+# Secrets and environments
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+# Generated outputs (keep folders with .gitkeep)
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+images/*
+!images/.gitkeep
+.streamlit/secrets.toml
